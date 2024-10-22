@@ -5,19 +5,20 @@ export const siteConfig = {
   description: "The web interface for tree lights",
   navItems: [
     {
-      label: "Overview",
+      label: "Home",
       href: "/",
     },
     {
+      label: "Songs",
+      href: "songs",
+    },
+    {
       label: "Configuration",
-      href: "/projects",
+      href: "/configuration",
     },
     {
       label: "Scanner",
-      href: "/contact",
+      href: "/scanner",
     },
   ],
-  links: {
-    github: "https://github.com/SemicolonUnexpected",
-  },
 };
